@@ -29,7 +29,7 @@ function getTeamData(){
         }
     };
     
-    fetch('https://api-football-v1.p.rapidapi.com/v3/teams/statistics/?league=140&season=2021&team=529', options)
+    fetch('https://api-football-v1.p.rapidapi.com/v3/teams/statistics/?league=140&season=2022&team=529', options)
         .then(response => response.json())
         .then(
             response=>{
@@ -42,7 +42,7 @@ function getTeamData(){
         )
         .catch(err => console.error(err));
 
-    fetch('https://api-football-v1.p.rapidapi.com/v3/teams/statistics/?league=140&season=2021&team=530', options)
+    fetch('https://api-football-v1.p.rapidapi.com/v3/teams/statistics/?league=140&season=2022&team=530', options)
         .then(response => response.json())
         .then(
             response=>{
@@ -54,7 +54,7 @@ function getTeamData(){
         )
         .catch(err => console.error(err));
 
-        fetch('https://api-football-v1.p.rapidapi.com/v3/teams/statistics/?league=140&season=2021&team=541', options)
+        fetch('https://api-football-v1.p.rapidapi.com/v3/teams/statistics/?league=140&season=2022&team=541', options)
         .then(response => response.json())
         .then(
             response=>{
@@ -66,7 +66,7 @@ function getTeamData(){
         )
         .catch(err => console.error(err));
 
-    fetch('https://api-football-v1.p.rapidapi.com/v3/teams/statistics/?league=140&season=2021&team=536', options)
+    fetch('https://api-football-v1.p.rapidapi.com/v3/teams/statistics/?league=140&season=2022&team=536', options)
         .then(response => response.json())
         .then(
             response=>{
